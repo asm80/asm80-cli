@@ -32,6 +32,7 @@ jobs:
           for util in asm80 asm80-link asm80-ar asm80-run; do
             npx @yao-pkg/pkg ${util}.mjs \
               --targets node18-win-x64,node18-linux-x64,node18-macos-x64,node18-macos-arm64 \
+              --no-bytecode \
               --out-path dist/
           done
 
@@ -41,7 +42,6 @@ jobs:
       - name: Create GitHub Release and upload binaries
         uses: softprops/action-gh-release@v2
         with:
-          # Exclude .cmd shims that pkg emits for Windows targets
           files: |
             dist/*.exe
             dist/*-linux*
