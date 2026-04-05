@@ -5,6 +5,10 @@
   "type": "module",
   "author": "Martin Maly <maly@maly.cz>",
   "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asm80/asm80-cli.git"
+  },
   "bin": {
     "asm80": "./asm80.js",
     "asm80-link": "./asm80-link.js",
