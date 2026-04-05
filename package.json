@@ -10,16 +10,16 @@
     "url": "git+https://github.com/asm80/asm80-cli.git"
   },
   "bin": {
-    "asm80": "./asm80.js",
-    "asm80-link": "./asm80-link.js",
-    "asm80-ar": "./asm80-ar.js",
-    "asm80-run": "./asm80-run.js"
+    "asm80": "./asm80.mjs",
+    "asm80-link": "./asm80-link.mjs",
+    "asm80-ar": "./asm80-ar.mjs",
+    "asm80-run": "./asm80-run.mjs"
   },
   "files": [
-    "asm80.js",
-    "asm80-link.js",
-    "asm80-ar.js",
-    "asm80-run.js"
+    "asm80.mjs",
+    "asm80-link.mjs",
+    "asm80-ar.mjs",
+    "asm80-run.mjs"
   ],
   "keywords": [
     "assembler",
