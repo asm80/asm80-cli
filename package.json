@@ -1,15 +1,15 @@
 {
   "name": "asm80-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ASM80 command-line tools: assembler, linker, archiver, emulator",
   "type": "module",
   "author": "Martin Maly <maly@maly.cz>",
   "license": "BSD-2-Clause",
   "bin": {
-    "asm80":      "./asm80.js",
+    "asm80": "./asm80.js",
     "asm80-link": "./asm80-link.js",
-    "asm80-ar":   "./asm80-ar.js",
-    "asm80-run":  "./asm80-run.js"
+    "asm80-ar": "./asm80-ar.js",
+    "asm80-run": "./asm80-run.js"
   },
   "files": [
     "asm80.js",
@@ -17,7 +17,14 @@
     "asm80-ar.js",
     "asm80-run.js"
   ],
-  "keywords": ["assembler", "emulator", "z80", "8080", "6502", "retro"],
+  "keywords": [
+    "assembler",
+    "emulator",
+    "z80",
+    "8080",
+    "6502",
+    "retro"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@yao-pkg/pkg": "^5.11.0"
