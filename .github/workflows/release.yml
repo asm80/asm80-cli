@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: '24'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
@@ -30,10 +30,8 @@ jobs:
         run: |
           mkdir -p dist
           for util in asm80 asm80-link asm80-ar asm80-run; do
-            npx @yao-pkg/pkg ${util}.mjs \
-              --targets node18-win-x64,node18-linux-x64,node18-macos-x64,node18-macos-arm64 \
-              --no-bytecode \
-              --public \
+            npx @yao-pkg/pkg ${util}.js \
+              --targets node20-win-x64,node20-linux-x64,node20-macos-x64,node20-macos-arm64 \
               --out-path dist/
           done
 
