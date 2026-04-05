@@ -1,10 +1,10 @@
 {
-  "name": "asm80-cli",
+  "name": "@asm80/cli",
   "version": "1.0.2",
   "description": "ASM80 command-line tools: assembler, linker, archiver, emulator",
   "type": "module",
   "author": "Martin Maly <maly@maly.cz>",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bin": {
     "asm80": "./asm80.js",
     "asm80-link": "./asm80-link.js",
