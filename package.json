@@ -1,6 +1,6 @@
 {
   "name": "@asm80/cli",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "description": "ASM80 command-line tools: assembler, linker, archiver, emulator",
   "author": "Martin Maly <maly@maly.cz>",
   "license": "MIT",
