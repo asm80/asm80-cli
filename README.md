@@ -15,7 +15,7 @@ Příkazové nástroje ASM80 – assembler, linker, archivátor knihoven a emul�
 npm i -g @asm80/cli
 ```
 
-Vyžaduje Node.js 18 nebo novější. Samostatné binárky (bez nutnosti instalovat Node.js) pro Windows, Linux a macOS jsou přiložené ke [GitHub Releases](https://github.com/asm80/asm80-cli/releases).
+Vyžaduje Node.js 22 nebo novější (CI testuje Node 22 a 24). Samostatné binárky (bez nutnosti instalovat Node.js, obsahují vestavěný Node.js 24) pro Windows, Linux a macOS jsou přiložené ke [GitHub Releases](https://github.com/asm80/asm80-cli/releases).
 
 ## Použití
 
