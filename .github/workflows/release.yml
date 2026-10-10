@@ -23,7 +23,7 @@ jobs:
           test "${GITHUB_REF_NAME#v}" = "$(node -p "require('./package.json').version")" || { echo "Tag neodpovídá verzi v package.json"; exit 1; }
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
@@ -69,7 +69,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
