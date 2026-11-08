@@ -36,7 +36,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@yao-pkg/pkg": "^6.23.0"
+    "@yao-pkg/pkg": "^6.24.0"
   },
   "pkg": {
     "targets": [
